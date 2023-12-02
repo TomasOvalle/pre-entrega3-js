@@ -1,0 +1,151 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "NanumGothicRegular";
+    src: url(/fonts/Nanum_Gothic/NanumGothic-Regular.ttf); }
+
+.eliminar-producto {
+    cursor: pointer;
+    font-size: larger;
+}
+
+.centrar-div {
+    text-align: center;
+}
+
+img.logo {
+    cursor: pointer;
+    display: inline;
+    width: 48px;
+    float: right;
+}
+
+div.header {
+    display: inline;
+    color: #9b6767;
+    text-align: center;
+}
+
+div.carrito span {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 900px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-card {
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5d3e40;
+    box-shadow: 10px 6px 6px rgba(211, 211, 211, 0.221);
+    width: 230px;
+    height: 280px;
+}
+
+.div-card:hover {
+    background-color:#ebdddd;
+    transition: 0.6s ease-in;
+    box-shadow: 5px 20px 60px rgba(0, 0, 0, 0.519);
+}
+
+div.imagen {
+    font-size: 65px;
+}
+
+div.imagen:hover {
+    transform: scale(1.25);
+    transition: .6s ease-in;
+}
+
+div.producto {
+    font-size: 18px;
+    color: #c7a0a0;
+    font-family: 'NanumGothicRegular';
+}
+
+div.importe {
+    font-size: 16px;
+    color: #c7a0a0;
+    font-family: 'NanumGothicRegular';
+}
+
+button {
+    font-size: 8px;
+    font-family: 'NanumGothicRegular';
+}
+
+button:hover {
+    background-color: #b28381;
+    color: #faf6f6;
+    border-color: black;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+    border-color: #5d3e40;
+}
+
+.div-card-error {
+    width: auto;
+    padding: 40px;
+    max-width: 900px;
+    text-align: center;
+    border: 1px solid red;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 8px lightgrey;
+    background-color: rgba(255, 0, 0, 0.091);
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.imagen-error {
+    font-size: 60px;
+}
+
+.leyenda-error {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.leyenda-intento {
+    font-size: 20px;
+}
+.titulo{
+    color: #3c1613;
+    font-family: 'NanumGothicRegular';
+}
+.subtitulo{
+    color: #9b6767;
+    font-family: 'NanumGothicRegular';
+}
+.tabla{
+    color: #b28381;
+    font-family: 'NanumGothicRegular';
+}
+.tabla .tierno th{
+    padding: 10px;
+    font-family: 'NanumGothicRegular';
+}
+.footer .seccion-informacion {
+    padding-top: 50px;
+    padding-left: 300px; }
+    .footer .seccion-informacion .contactos {
+      width: 300px; }
+    .footer .seccion-informacion .politicas li a {
+      text-decoration: none; }
+      .footer .seccion-informacion .politicas li a:hover {
+        color: #3c1613;
+        transition: 0.6s; }
